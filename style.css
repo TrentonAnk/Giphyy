@@ -1,29 +1,90 @@
-.jumbotron{
+.hero {
+    background-color: yellowgreen;
+    text-align: center;
+    font-family: lucida console;
+    border-bottom: 2px solid white;
+    text-shadow: 1px 1px blue;
+}
+
+.title {
+    font-size: 35px
+}
+
+.subtitle {
+    font-size: 28px
+}
+
+.input {
+    width: 30%;
+    margin-left: 5%
+}
+
+#buttons {
+    width: 40%;
+    float: right;
+    position: relative;
+    background: black;
+    height: 5%;
+    bottom: 120px;
+    right: 25px;
+    margin-right: 25px;
+}
+
+.button-group {
+    background: black;
+    display: inline-block;
+}
+
+.notification {
+    background: black
+}
+
+.button {
+    /* background-color: blue;
+    color: greenyellow; */
+    font-family: lucida console;
+    margin-left: 5%;
+    text-shadow: 1px 1px blue;
+    border: 2px solid yellowgreen
+}
+
+body {
     background-color: black;
+    border-right: 2px solid white;
+    border-left: 2px solid white
+}
+
+label {
+    margin-left: 5%;
+    font-family: lucida console;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px blue;
+}
+
+#gifArea {
+    top: 60%;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+    width: 100%;
+    border-top: 2px solid white
+}
+
+footer {
+    text-align: center;
+    border-top: 2px solid white;
+    position: relative
+}
+
+h5 {
+    font-family: lucida console;
+    font-size: 25px;
     color: white;
     text-align: center;
-    font-family: lucida console;
-}
-
-.form-inline{
-    background-color: black;
-    color: crimson;
-    text-align: center;
-    font-family: lucida console;
-}
-
-.btn-group-inline-pull-left {
-    background-color: black;
-    color: crimson;
-font-family: lucida console;
-}
-
-.btn-primary{
-    background-color: black;
-    color: crimson;
-font-family: lucida console;
-}
-body {
-    background-color: crimson;
-
+    text-shadow: 2px 2px blue;
 }
